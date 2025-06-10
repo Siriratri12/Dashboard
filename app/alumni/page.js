@@ -127,7 +127,6 @@ export default function Page() {
 
         <div className="content-area">
           <div className="section-box">
-            {/* เนื่องจากเรากำหนด view ให้เป็น "faculty" เสมอ MyChart จึงจะถูกโหลด */}
             <MyChart />
           </div>
 
