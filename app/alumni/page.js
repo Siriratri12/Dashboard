@@ -118,7 +118,7 @@ export default function Page() {
             className={
               view === "faculty" ? "action-button active" : "action-button"
             }
-            onClick={() => setView("faculty")} // ปุ่มนี้ยังคงสามารถเปลี่ยนสถานะได้ แต่จะถูกกำหนดเป็น "faculty" เสมอ
+            onClick={() => setView("faculty")}
             aria-pressed={view === "faculty"}
           >
             วิทยาเขต / คณะ / สาขา
